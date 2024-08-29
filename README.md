@@ -65,3 +65,33 @@ vostra giornata tipo.
 
 In bocca al lupo e buon divertimento!
 
+
+
+WORKFLOW LIST:
+
+Giovedì 29
+mattina:
+macrostruttura
+
+pomeriggio:
+struttura a blocchi colorati e header/footer menu
+
+Venerdì 30 
+mattina:
+header, jumbo e sezione 'our consultant can help you' 
+
+pomeriggio:
+sezioni 'about us' e 'project'
+
+Lunedì 2
+mattina:
+sezioni 'testimonials' e 'blog'
+
+pomeriggio:
+sezione 'get started' e footer e code review
+
+*Utilizzare il week-end per quanto possibile
+
+
+
+
