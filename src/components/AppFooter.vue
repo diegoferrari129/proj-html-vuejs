@@ -1,10 +1,13 @@
 <script>
+
 export default {
   
 }
+
 </script>
 
 <template>
+
     <div class="pt-5">
 
         <div class="container-fluid">
@@ -34,7 +37,7 @@ export default {
     </div>
 
     <div class="py-5">
-        
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-10 offset-1">
@@ -56,6 +59,7 @@ export default {
         </div>
 
     </div>
+    
 </template>
 
 <style lang="scss" scoped>

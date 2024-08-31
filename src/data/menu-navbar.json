@@ -1,0 +1,32 @@
+[
+    {
+        "label": "HOME",
+        "url": "#",
+        "current": true
+    },
+    {
+        "label": "ABOUT",
+        "url": "#",
+        "current": false
+    },
+    {
+        "label": "PROJECTS",
+        "url": "#",
+        "current": false
+    },
+    {
+        "label": "SERVICES",
+        "url": "#",
+        "current": false
+    },
+    {
+        "label": "BLOG",
+        "url": "#",
+        "current": false
+    },
+    {
+        "label": "CONTACT",
+        "url": "#",
+        "current": false
+    }
+]
