@@ -261,4 +261,5 @@ export default {
     .ms-150{
         margin-left: 150px;
     }
+    
 </style>
