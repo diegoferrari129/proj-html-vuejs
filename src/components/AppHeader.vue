@@ -5,22 +5,28 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-10 offset-1">
-                <div class="d-flex justify-content-between">
-                    <!-- logo -->
-                <div>
-                    logo
-                </div>
-                <!-- menu -->
-                 <div>
-                    menu
-                 </div>
-                </div>
+    <div class="py-1">
 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10 offset-1">
+
+                    <div class="d-flex justify-content-between">
+                        
+                        <div> <!-- logo -->
+                            logo
+                        </div>
+                        
+                        <div> <!-- menu -->
+                            menu
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
+
     </div>
 </template>
 
