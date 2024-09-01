@@ -99,13 +99,16 @@ export default {
                 <div class="col-7 ps-0">
 
                     <div class="bg-img-about-us">
+
                         <div class="about-us-img">
                         </div>
+
                     </div>
         
                 </div>
 
                 <div class="col-5">
+
                     <div class="about-us-content">
 
                         <div class="green-line"></div>
@@ -114,33 +117,40 @@ export default {
 
                         <h2>WE MAKE YOUR STRATEGY WORK</h2>
 
-                        <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little world among the stalks, and gerow familiar indescribable forms of the insects and flies, then I feel the presence of the Almighty,</p>
+                        <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little world among the stalks, and gerow familiar indescribable forms of the insects and flies, then I feel the presence of the Almighty.</p>
 
                     </div>
+                    
                 </div>
                 
             </div>
             <div class="row">
                 <div class="col-11 ps-0">
 
-                    <div class="bg-secondary">
+                    <div class="about-us-bottom-bg">
                         
 
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="text-center">
-                                    text
+                        <div class="row g-5">
+                            <div class="col-3 offset-3">
+                                <div class="about-us-bottom">
+                                    <h3>
+                                        WE HELP TO DELIVER THE BUSINESS CASE
+                                    </h3>
                                 </div>
                             </div>
-                            <div class="col-6">
-                                <div class="text-center">
-                                    text
+                            <div class="col-3 offset-1">
+                                <div class="about-us-bottom">
+                                    <p>
+                                        When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="text-end">
-                            bottone
+                            <button>
+                                GET STARTED
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -357,6 +367,32 @@ export default {
             padding-top: 25px;
         }
     }
+    .about-us-bottom-bg {
+        background-color: #35ffbf;
+        
+        .about-us-bottom {
+            padding: 30px 0px;
+            color: black;
+            
+            h3 {
+                padding-right: 60px;
+                font-weight: 650;
+            }
+
+            p {
+               font-weight: 200;
+            }
+        }
+
+        button {
+            background-color: #f71e3a;
+            padding: 15px 45px;
+            border: none;
+            font-size: 12px;
+            color: white;
+        }
+    }
+    
 
     .ms-150 {
         margin-left: 150px;
