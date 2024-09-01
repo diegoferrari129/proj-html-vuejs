@@ -222,36 +222,74 @@ export default {
     </section>
     
     <!-- TESTIMONIALS SECTION-->
-    <section class="pt-5">
+    <section class="testimonials">
         
         <div class="container-fluid">
             <div class="row">
                 <div class="col-10 offset-1">
 
-                    <div class="text-end bg-primary">
-                        title
+                    <div class="testimonials-title">
+                        
+                        <h6>TETIMONIALS</h6>
+
+                        <div class="col-7 offset-5">
+                            <h5>
+                                WATH'S THE CUSTOMER SAY ABOUT OUR WORK
+                            </h5>
+                        </div>
+
                     </div>
                     
                 </div>
             </div>
             <div class="row">
-                <div class="col-11 offset-1 pe-0">
-                    <div class="bg-light p-5">
+                <div class="col-11 offset-1">
+                    <div class="quotes">
 
                         <div class="row">
                             <div class="col-4">
-                                <div class="bg-primary">
-                                    text
+                                <div class="quotes-text">
+                                    <p>
+                                        When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little.
+                                    </p>
+
+                                    <h6>
+                                        Vera Duncan
+                                    </h6>
+
+                                    <div class="quote-from" >
+                                        Amazon Inc.
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="bg-primary">
-                                    text
+                                <div class="quotes-text">
+                                    <p>
+                                        When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little.
+                                    </p>
+
+                                    <h6>
+                                        Vera Duncan
+                                    </h6>
+
+                                    <div class="quote-from" >
+                                        Amazon Inc.
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="bg-primary">
-                                    text
+                                <div class="quotes-text">
+                                    <p>
+                                        When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little.
+                                    </p>
+
+                                    <h6>
+                                        Vera Duncan
+                                    </h6>
+
+                                    <div class="quote-from" >
+                                        Amazon Inc.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -369,7 +407,7 @@ export default {
         }
 
         h6 {
-            color: #f5f5f6;
+            color: #bebec7;
             display: inline-block;
             margin-left: 20px;
             padding-bottom: 20px;
@@ -423,6 +461,7 @@ export default {
             margin-left: 15px;
             padding-bottom: 5px;
             font-size: 14px; 
+            color: #bebec7;
         }
 
         h5 {
@@ -455,6 +494,55 @@ export default {
         img{
             width: 100%;
             height: 100%;
+        }
+    }
+    
+    //TESTIMONIALS SECTION
+    .testimonials {
+        padding-top: 100px;
+
+        .testimonials-title {
+    
+            h6 {
+                text-align: center;
+                font-size: 14px;
+                color: #bebec7;
+            }
+    
+            h5 {
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 40px;
+                padding-bottom: 25px;
+                text-align: end;
+                margin-left: 300px;
+            }
+        }
+    
+        .quotes {
+            background-color: white;
+            color: #81808e;
+            padding-right: 150px;
+            padding-left: 30px;
+    
+            .quotes-text {
+                padding: 50px 70px 30px 70px;
+    
+                p {
+                   padding-bottom: 30px;
+                }
+    
+                h6 {
+                    color: black;
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+    
+                .quote-from{
+                    padding-bottom: 30px;
+                    font-size: 14px;
+                }
+            }
         }
     }
     
