@@ -32,8 +32,9 @@ export default {
             display: flex;
 
             li{
-                padding: 10px 15px;
+                padding: 10px 5px;
                 font-weight: 500;
+                font-size: 13px;
                 
                 &:hover {
                     font-weight: 720;
@@ -41,15 +42,15 @@ export default {
                 
                 a {
                     text-decoration: none;
-                    color: black;
+                    color: white;
                 }
             }
             
             .active {
                 color: $active__color;
                 padding-top: 15px;
-                border-top: 5px solid black;
-                font-weight: 720;
+                border-top: 5px solid white;
+                font-weight: 900;
             }
         }
     }

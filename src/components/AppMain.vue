@@ -5,24 +5,7 @@ export default {
 </script>
 
 <template>
-    <!-- JUMBO  -->
-     <section class="jumbo">
-        
-         <div class="container-fluid">
-            <div class="row">
-
-                <div class="col-2 offset-1">
-                    <h1>
-                        titolo
-                    </h1>
-                    <div>
-                        bottone
-                    </div>
-                </div>
     
-            </div>
-         </div>
-     </section>
     <!-- OUR CONSULTANTS CAN HELP YOU SECTION -->
     <section class="py-5 bg-light">
         <div class="container">
@@ -255,11 +238,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-    .me-150{
-        margin-right: 150px;
-    }
-    .ms-150{
-        margin-left: 150px;
+    .jumbo{
+        
     }
     
 </style>

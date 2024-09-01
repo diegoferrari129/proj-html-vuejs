@@ -39,6 +39,24 @@ export default {
 
                     </div>
 
+                    <div class="row">
+                        <div class="col-4">
+
+                            <div class="jumbo">
+
+                                <div class="green-line"></div>
+                                <h6>ALWATS THE BEST WAY YOU NEED IT</h6>
+                                <h1>THE BEST <span>BUSINESS</span> CONSULTING</h1>
+                                <div>
+                                    <button>READ MORE</button>
+                                    icon
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -49,22 +67,68 @@ export default {
 
 <style lang="scss" scoped>
 
-    .header-content {
-        display: flex;
-        justify-content: space-between;
+    header {
+        background-image: url(/public/img/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg);
+        background-repeat: no-repeat;
+        background-position: right top;
+        height: 950px;
+        background-size: 1400px;
 
-        .header-logo {
-            width: 100px;
+        .header-content {
+            display: flex;
+            justify-content: space-between;
     
-            img {
-                width: 100%;
+            .header-logo {
+                width: 100px;
+        
+                img {
+                    width: 100%;
+                }
+            }
+    
+            .header-menu {
+                display: flex;
             }
         }
 
-        .header-menu {
-            display: flex;
+        .jumbo {
+            margin-top: 300px;
+
+            .green-line {
+                width: 50px;
+                border-bottom: 5px solid #2b7a70;
+                display: inline-block;
+                margin-left: 5px;
+            }
+
+            h1 {
+                font-size: 73px;
+                font-weight: 700;
+                line-height: 65px;
+                padding: 20px 0px;
+                padding-left: 4px;
+
+                span {
+                    padding-left: 7px;
+                }
+            }
+
+            h6 {
+                font-size: 14px;
+                display: inline-block;
+                padding-left: 15px;
+            }
+
+            button {
+                background-color: #39febe;
+                padding: 10px 45px;
+                border: none;
+                font-size: 12px;
+                margin-top: 15px;
+            }
         }
     }
+
     
 
 </style>
