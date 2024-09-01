@@ -168,13 +168,28 @@ export default {
                     <div class="row">
                         <div class="col-6">
 
-                            <div class="bg-primary">
-                                title
+                            <div class="project-title">
+                                <div class="green-line"></div>
+
+                                <h6>PROJECT</h6>
+                                <h5>
+                                    OUR EXPERT TRUSTED CONSULTANTS HELP CLIENTS
+                                </h5>
                             </div>
+
                         </div>
                         <div class="col-6">
-                            <div class="bg-primary text-end">
-                                arrow
+                            <div class="project-buttons">
+                                <div>
+                                    <button>
+                                        <i class="fa-solid fa-arrow-right fa-flip-horizontal fa-sm" style="color: #ffffff;"></i>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button>
+                                        <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -183,20 +198,20 @@ export default {
                     <div class="row">
     
                         <div class="col-4">
-                            <div class="bg-danger">
-                                imgs
+                            <div class="project-img">
+                                <img src="/public/img/DRY-1-790x592.jpg" alt="">
                             </div>
                         </div>
     
                         <div class="col-4">
-                            <div class="bg-danger">
-                                imgs
+                            <div class="project-img">
+                                <img src="/public/img/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg" alt="">
                             </div>
                         </div>
     
                         <div class="col-4">
-                            <div class="bg-danger">
-                                imgs
+                            <div class="project-img">
+                                <img src="/public/img/z1el4c4p-790x592.jpg" alt="">
                             </div>
                         </div>
     
@@ -390,6 +405,56 @@ export default {
             border: none;
             font-size: 12px;
             color: white;
+        }
+    }
+
+    // PROJECT SECTION
+    .project-title {
+        padding-top: 100px;
+
+        .green-line {
+            width: 50px;
+            border-bottom: 3px solid #39febe;
+            display: inline-block;
+        }
+
+        h6 {
+            display: inline-block;
+            margin-left: 15px;
+            padding-bottom: 5px;
+            font-size: 14px; 
+        }
+
+        h5 {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 40px;
+            padding-bottom: 25px;
+        }
+    }
+
+    .project-buttons {
+        padding-top: 150px;
+        display: flex;
+        justify-content: end;
+        margin-right: 9px;
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #36354c;
+            margin-left: 5px;
+        }
+    }
+
+    .project-img {
+        width: 500px;
+        display: flex;
+        height: auto;
+        
+        img{
+            width: 100%;
+            height: 100%;
         }
     }
     
