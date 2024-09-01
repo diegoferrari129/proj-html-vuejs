@@ -5,38 +5,85 @@ export default {
 </script>
 
 <template>
-    
+
     <!-- OUR CONSULTANTS CAN HELP YOU SECTION -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-light services">
+        <div class="container-fluid pe-0">
+            <div class="row">
+                <div class="col-10 offset-2">
+  
+                    <div class="pt-4 pb-5 d-flex">
+
+                        <h4>OUR CONSULTANTS CAN HELP YOU</h4>
+
+                        <div class="green-line"></div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <!-- section's title -->
-                <h5 class="bg-primary">OUR CONSULTANTS CAN HELP YOU</h5>
+                 
                 <div class="col-6">
                     <!-- statistical consulting -->
                     <div class="col-12">
-                        <div class="bg-primary me-150">
-                            statistical consulting
+                        <div class="d-flex me-150 pt-5 pb-3">
+                            <div class="pe-5">
+                                <div class="rounded">
+                                    <i class="fa-solid fa-chart-line fa-xl" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h5>STATISTICAL CONSULTING</h5>
+                                <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a</p>
+                            </div>
                         </div>
                     </div>
                     <!-- banking consulting -->
                     <div class="col-12">
-                        <div class="bg-primary me-150">
-                            banking consulting
+                        <div class="d-flex me-150 pt-5 pb-5">
+                            <div class="pe-5">
+                                <div class="rounded">
+                                    <i class="fa-solid fa-money-check-dollar fa-xl" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h5>BANKING CONSULTING</h5>
+                                <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-6">
                     <!-- digital consulting -->
                     <div class="col-12">
-                        <div class="bg-primary ms-150">
-                            digital consulting
+                        <div class="d-flex ms-150 pt-5 pb-3">
+                            <div class="pe-5">
+                                <div class="rounded">
+                                    <i class="fa-solid fa-bullhorn fa-xl" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h5>DIGITAL CONSULTING</h5>
+                                <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a</p>
+                            </div>
                         </div>
                     </div>
                     <!-- enterprise consulting -->
                     <div class="col-12">
-                        <div class="bg-primary ms-150">
-                            enterprise consulting
+                        <div class="d-flex ms-150 pt-5 pb-5">
+                            <div class="pe-5">
+                                <div class="rounded">
+                                    <i class="fa-solid fa-bullseye fa-xl" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h5>ENTERPRISE CONSULTING</h5>
+                                <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -45,7 +92,7 @@ export default {
     </section>
 
     <!-- ABOUT US SECTION -->
-    <section class="pt-5">
+    <section class="">
 
         <div class="container-fluid">
             <div class="row">
@@ -238,8 +285,45 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-    .jumbo{
-        
+    .services{
+        color: black;
+
+        h4, h5 {
+            font-weight: 600;
+        }
+
+        p {
+            color: #777777;
+        }
+
+        .green-line {
+            width: 71%;
+            border-bottom: 3px solid #39febe;
+            display: inline-block;
+            margin-bottom: 19px;
+            margin-left: 40px;
+        }
+
+
+    }
+
+    .ms-150 {
+        margin-left: 150px;
+    }
+
+    .me-150 {
+        margin-right: 150px;
+    }
+
+    .rounded {
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f81e3a;
+        width: 50px;
+        height: 50px;
+        clip-path: circle(50% at center);
     }
     
 </style>

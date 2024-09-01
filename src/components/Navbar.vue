@@ -36,14 +36,17 @@ export default {
                 font-weight: 500;
                 font-size: 13px;
                 
-                &:hover {
-                    font-weight: 720;
-                }
-                
                 a {
                     text-decoration: none;
-                    color: white;
+                    color: #fa8b8e;
+
+                    &:hover {
+                        font-weight: 950;
+                        color: white;
+                    }
+                    
                 }
+                
             }
             
             .active {

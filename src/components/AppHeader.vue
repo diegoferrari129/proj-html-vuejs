@@ -72,7 +72,7 @@ export default {
         background-repeat: no-repeat;
         background-position: right top;
         height: 950px;
-        background-size: 1400px;
+        background-size: 1370px;
 
         .header-content {
             display: flex;
@@ -96,15 +96,15 @@ export default {
 
             .green-line {
                 width: 50px;
-                border-bottom: 5px solid #2b7a70;
+                border-bottom: 5px solid #39febe;
                 display: inline-block;
                 margin-left: 5px;
             }
 
             h1 {
-                font-size: 73px;
+                font-size: 80px;
                 font-weight: 700;
-                line-height: 65px;
+                line-height: 70px;
                 padding: 20px 0px;
                 padding-left: 4px;
 
@@ -116,7 +116,8 @@ export default {
             h6 {
                 font-size: 14px;
                 display: inline-block;
-                padding-left: 15px;
+                padding-left: 20px;
+                word-spacing: 2px;
             }
 
             button {
