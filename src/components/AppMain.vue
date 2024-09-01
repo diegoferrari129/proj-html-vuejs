@@ -8,11 +8,12 @@ export default {
 
     <!-- OUR CONSULTANTS CAN HELP YOU SECTION -->
     <section class="py-5 bg-light services">
-        <div class="container-fluid pe-0">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-10 offset-2">
-  
-                    <div class="pt-4 pb-5 d-flex">
+
+                    <!-- section's title -->
+                    <div class="pt-5 pb-5 d-flex">
 
                         <h4>OUR CONSULTANTS CAN HELP YOU</h4>
 
@@ -25,7 +26,6 @@ export default {
         </div>
         <div class="container">
             <div class="row">
-                <!-- section's title -->
                  
                 <div class="col-6">
                     <!-- statistical consulting -->
@@ -92,19 +92,30 @@ export default {
     </section>
 
     <!-- ABOUT US SECTION -->
-    <section class="">
+    <section class="about-us">
 
         <div class="container-fluid">
             <div class="row">
                 <div class="col-7 ps-0">
-                    
-                    <div class="bg-danger">
-                        img
+
+                    <div class="bg-img-about-us">
+                        <div class="about-us-img">
+                        </div>
                     </div>
+        
                 </div>
+
                 <div class="col-5">
-                    <div class="bg-success">
-                        about us
+                    <div class="about-us-content">
+
+                        <div class="green-line"></div>
+
+                        <h6>ABOUT US</h6>
+
+                        <h2>WE MAKE YOUR STRATEGY WORK</h2>
+
+                        <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little world among the stalks, and gerow familiar indescribable forms of the insects and flies, then I feel the presence of the Almighty,</p>
+
                     </div>
                 </div>
                 
@@ -285,7 +296,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-    .services{
+
+    // OUR CONSULTANTS SECTION
+    .services {
         color: black;
 
         h4, h5 {
@@ -303,8 +316,46 @@ export default {
             margin-bottom: 19px;
             margin-left: 40px;
         }
+    }
 
+    // ABOUT US SECTION
+    .bg-img-about-us {
+        height: 750px;
+        .about-us-img {
+            height: 100%;
+            background-image: url(/public/img/business-people-working-together-on-project-and-5FHSKBL.jpg);
+            background-repeat: no-repeat;
+        }
+    }
 
+    .about-us-content {
+        padding: 200px 200px 150px 50px;
+
+        .green-line {
+            width: 50px;
+            border-bottom: 3px solid #39febe;
+            display: inline-block;
+        }
+
+        h2 {
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 70px;
+        }
+
+        h6 {
+            color: #f5f5f6;
+            display: inline-block;
+            margin-left: 20px;
+            padding-bottom: 20px;
+            font-weight: 500;
+        }
+
+        p {
+            color: #676778;
+            font-weight: 550;
+            padding-top: 25px;
+        }
     }
 
     .ms-150 {
