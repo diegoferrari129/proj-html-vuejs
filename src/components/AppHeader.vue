@@ -34,6 +34,7 @@ export default {
                             <Navbar
                             v-for="link, index in menu" :key="index"
                             :menuData="link"
+                            :class="{ active: link.current }" 
                             />
                         </div>
 
@@ -66,6 +67,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '/src/styles/variables.scss' as *;
 
     header {
         background-image: url(/public/img/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg);
@@ -88,6 +90,14 @@ export default {
     
             .header-menu {
                 display: flex;
+
+                .active {
+                    color: $active__color;
+                    border-top: 5px solid white;
+                    font-weight: 900;
+                }
+
+                
             }
         }
 

@@ -36,25 +36,17 @@ export default {
                 font-weight: 500;
                 font-size: 13px;
                 
+                &:hover {
+                    font-weight: 950;
+                    color: white;
+                }
+                
                 a {
                     text-decoration: none;
                     color: #fa8b8e;
-
-                    &:hover {
-                        font-weight: 950;
-                        color: white;
-                    }
-                    
                 }
-                
             }
-            
-            .active {
-                color: $active__color;
-                padding-top: 15px;
-                border-top: 5px solid white;
-                font-weight: 900;
-            }
+
         }
     }
     
