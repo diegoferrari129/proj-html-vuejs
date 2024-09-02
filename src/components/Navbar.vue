@@ -8,14 +8,13 @@ export default {
 
 <template>
 
-    <div class="menu">
+    <div class="menu" >
         <ul>
             <li>
-                <a
-                    :href="menuData.url"
-                    :class="menuData.current ? 'active' : ''">
+                <a :href="menuData.url" >
 
                     {{ menuData.label }}
+
                 </a>
             </li>
         </ul>

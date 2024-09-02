@@ -98,8 +98,6 @@ export default {
                     border-top: 5px solid white;
                     font-weight: 900;
                 }
-
-                
             }
         }
 
@@ -138,6 +136,11 @@ export default {
                 border: none;
                 font-size: 12px;
                 margin-top: 15px;
+
+                &:hover {
+                    background-color: #f81e3a;
+                    color: white;
+                }
             }
 
             .jumbo-icon {
@@ -154,7 +157,5 @@ export default {
             }
         }
     }
-
-    
 
 </style>

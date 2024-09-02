@@ -34,7 +34,6 @@ export default {
                             <Navbar
                             v-for="link, index in menu" :key="index"
                             :menuData="link"
-                            :menuClass="'footer-navbar'"
                             />
                         </div>
                         
@@ -127,12 +126,6 @@ export default {
     .footer-menu {
         display: flex;
         
-        .footer-navbar {
-          
-            
-        }
     }
 
-    
-  
 </style>

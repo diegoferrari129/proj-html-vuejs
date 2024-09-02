@@ -248,7 +248,8 @@ export default {
 
                         <div class="row">
                             <div class="col-4">
-                                <div class="quotes-text">
+                                <div class="quotes-text first-quote">
+
                                     <p>
                                         When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little.
                                     </p>
@@ -263,7 +264,7 @@ export default {
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="quotes-text">
+                                <div class="quotes-text second-quote">
                                     <p>
                                         When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little.
                                     </p>
@@ -278,7 +279,7 @@ export default {
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="quotes-text">
+                                <div class="quotes-text third-quote">
                                     <p>
                                         When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when I hear the buzz of the little.
                                     </p>
@@ -559,6 +560,10 @@ export default {
             width: 100%;
             height: 100%;
         }
+
+        &:hover {
+            filter: opacity(25%);
+        }
     }
     
     //TESTIMONIALS SECTION
@@ -589,7 +594,7 @@ export default {
             padding-right: 150px;
             padding-left: 30px;
     
-            .quotes-text {
+            .first-quote {
                 padding: 50px 70px 30px 70px;
     
                 p {
@@ -605,6 +610,77 @@ export default {
                 .quote-from{
                     padding-bottom: 30px;
                     font-size: 14px;
+                }
+
+                &:hover {
+                    background-image: url(/public/img/oliver-ragfelt-488196-2.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    color: white;
+
+                    h6 {
+                        color: white;
+                    }
+                }
+            }
+
+            .second-quote {
+                padding: 50px 70px 30px 70px;
+    
+                p {
+                   padding-bottom: 30px;
+                }
+    
+                h6 {
+                    color: black;
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+    
+                .quote-from{
+                    padding-bottom: 30px;
+                    font-size: 14px;
+                }
+
+                &:hover {
+                    background-image: url(/public/img/oliver-ragfelt-488196-unsplash.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    color: white;
+
+                    h6 {
+                        color: white;
+                    }
+                }
+            }
+
+            .third-quote {
+                padding: 50px 70px 30px 70px;
+    
+                p {
+                   padding-bottom: 30px;
+                }
+    
+                h6 {
+                    color: black;
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+    
+                .quote-from{
+                    padding-bottom: 30px;
+                    font-size: 14px;
+                }
+
+                &:hover {
+                    background-image: url(/public/img/12679.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    color: white;
+
+                    h6 {
+                        color: white;
+                    }
                 }
             }
         }
@@ -719,6 +795,11 @@ export default {
                 color: #e4e3e5;
                 font-weight: 600;
                 margin-top: 10px;
+
+                &:hover {
+                    background-color: #f81e3a;
+                    color: white;
+                }
             }
         }
     }
