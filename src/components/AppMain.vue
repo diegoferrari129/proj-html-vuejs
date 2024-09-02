@@ -300,37 +300,92 @@ export default {
     </section>
 
     <!-- BLOG SECTION -->
-    <section class="pt-5">
+    <section class="blog">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-10 offset-1">
-                    <div class="row">
-                        <div class="d-flex justify-content-between bg-primary">
-                            <div>
-                                title
-                            </div>
-                            <div>
-                                bottone
-                            </div>
+
+                    <div class="green-line"></div>
+
+                    <h6>BLOG</h6>
+
+                    <div class="blog-title">
+
+                        <h5>
+                            THE RECENT NEWS YOU MUST READ IT
+                        </h5>
+
+                        <div>
+                            <button>
+                                VIEW ALL
+                            </button>
                         </div>
                     </div>
+
                     <div class="row">
         
                         <div class="col-6">
-                            <div class="bg-danger position-relative">
-                                imgs
-                                <div class="position-absolute bg-light">
-                                    text
+
+                            <div class="position-relative">
+
+                                <div class="blog-img">
+
+                                    <img src="/public/img/startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg" alt="">
+
                                 </div>
+
+                                <div class="blog-label">
+
+                                    <span>
+                                        July 4, 2019
+                                    </span>
+
+                                    <span>
+                                        by paul
+                                    </span>
+
+                                    <div class="label-title" >
+                                        Canadian Consulting Firm acquired by UK Giant
+                                    </div>
+
+                                    <p>
+                                        When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a ...
+                                    </p>
+
+                                </div>
+
                             </div>
                         </div>
     
                         <div class="col-6">
-                            <div class="bg-danger position-relative">
-                                imgs
-                                <div class="position-absolute bg-light">
-                                    text
+
+                            <div class="position-relative">
+                                <div class="blog-img">
+
+                                    <img src="/public/img/business-people-working-together-on-project-and-5FHSKBL-1390.jpg" alt="">
+
                                 </div>
+
+                                <div class="blog-label">
+
+                                    <span>
+                                        July 4, 2019
+                                    </span>
+
+                                    <span>
+                                        by paul
+                                    </span>
+
+                                    <div class="label-title" >
+                                        Canadian Consulting Firm acquired by UK Giant
+                                    </div>
+
+                                    <p>
+                                        When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a ...
+                                    </p>
+
+                                </div>
+
                             </div>
                         </div>
     
@@ -341,7 +396,7 @@ export default {
     </section>
 
     <!-- GET STARTED SECTION -->
-    <section class="pt-5">
+    <section class="get-started">
         <div class="bg-danger">
             img
             <div class="container">
@@ -499,7 +554,7 @@ export default {
     
     //TESTIMONIALS SECTION
     .testimonials {
-        padding-top: 100px;
+        padding-top: 130px;
 
         .testimonials-title {
     
@@ -544,6 +599,90 @@ export default {
                 }
             }
         }
+    }
+
+    //BLOG SECTION
+    .blog{
+        padding-top: 130px;
+        
+
+        .green-line {
+            width: 50px;
+            border-bottom: 3px solid #39febe;
+            display: inline-block;
+        }
+    
+        h6 {
+            padding-left: 20px;
+            display: inline-block;
+            font-size: 14px;
+            color: #bebec7;
+        }
+
+        .blog-title {
+            display: flex;
+            justify-content: space-between;
+
+            h5 {
+                font-weight: 600;
+                font-size: 40px;
+                padding-bottom: 30px;
+                padding-top: 5px;
+            }
+
+            button {
+                background-color: #39febe;
+                padding: 10px 45px;
+                border: none;
+                font-size: 12px;
+                margin-top: 10px;
+                margin-right: 7px;
+            }
+        }
+
+        .blog-img {
+            width: 770px;
+            display: flex;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .blog-label {
+            position: absolute;
+            top: 380px;
+            left: 100px;
+            background-color: white;
+            padding: 40px 200px 30px 100px;
+            margin-right: 5px;
+            margin-left: 35px;
+            span {
+                color: #fa556a;
+                padding-right: 25px;
+            }
+
+            .label-title {
+                color: black;
+                font-size: 25px;
+                font-weight: 500;
+                padding-top: 10px;
+                padding-bottom: 15px;
+                line-height: 28px;
+            }
+
+            p {
+                color: #81808e;
+                line-height: 20px;
+            }
+        }
+    }
+
+    //GET STARTED SECTION
+    .get-started {
+        padding-top: 250px;
     }
     
 
