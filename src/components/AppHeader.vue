@@ -9,8 +9,14 @@ export default {
 
     data() {
         return {
-            menu: menu
+            menu: menu,
+            activeLink: 0,
         }
+    },
+    methods: {
+        selectLink(index) {
+            this.activeLink = index;
+        },
     },
 }
 
@@ -23,40 +29,50 @@ export default {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-10 offset-1">
-
                     <div class="header-content">
                         
                         <div class="header-logo"> <!-- logo -->
+
                             <img src="/public/img/logotype.png" alt="logo">
+
                         </div>
                         
                         <div class="header-menu"> <!-- menu -->
+
                             <Navbar
                             v-for="link, index in menu" :key="index"
                             :menuData="link"
-                            :class="{ active: link.current }" 
+                            :class="index == activeLink ? 'active' : ''"
+                            @click="selectLink(index)"
                             />
+                            
                         </div>
 
                     </div>
 
                     <div class="row">
                         <div class="col-4">
-
                             <div class="jumbo">
 
                                 <div class="green-line"></div>
+
                                 <h6>ALWATS THE BEST WAY YOU NEED IT</h6>
+
                                 <h1>THE BEST <span>BUSINESS</span> CONSULTING</h1>
+
                                 <div class="d-flex aligni-items-center">
+
                                     <button>READ MORE</button>
+
                                     <div class="jumbo-icon" >
+
                                         <i class="fa-solid fa-play" style="color: #63E6BE;"></i>
+
                                     </div>
+
                                 </div>
 
                             </div>
-
                         </div>
                     </div>
 

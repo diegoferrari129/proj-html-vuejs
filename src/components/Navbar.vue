@@ -2,7 +2,7 @@
 export default {
     props: {
             menuData: Object,
-        }
+    },
 }
 </script>
 
@@ -12,7 +12,7 @@ export default {
         <ul>
             <li>
                 <a :href="menuData.url" >
-
+                    
                     {{ menuData.label }}
 
                 </a>
