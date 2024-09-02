@@ -713,7 +713,7 @@ export default {
 
             button {
                 background-color: #201e38;
-                padding: 18px 40px;
+                padding: 18px 55px;
                 border: none;
                 font-size: 14px;
                 color: #e4e3e5;
@@ -723,7 +723,7 @@ export default {
         }
     }
     
-
+    // UTILITY
     .ms-150 {
         margin-left: 150px;
     }

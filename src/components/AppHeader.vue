@@ -48,9 +48,11 @@ export default {
                                 <div class="green-line"></div>
                                 <h6>ALWATS THE BEST WAY YOU NEED IT</h6>
                                 <h1>THE BEST <span>BUSINESS</span> CONSULTING</h1>
-                                <div>
+                                <div class="d-flex aligni-items-center">
                                     <button>READ MORE</button>
-                                    icon
+                                    <div class="jumbo-icon" >
+                                        <i class="fa-solid fa-play" style="color: #63E6BE;"></i>
+                                    </div>
                                 </div>
 
                             </div>
@@ -132,10 +134,23 @@ export default {
 
             button {
                 background-color: #39febe;
-                padding: 10px 45px;
+                padding: 0px 50px;
                 border: none;
                 font-size: 12px;
                 margin-top: 15px;
+            }
+
+            .jumbo-icon {
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #1f1e38;
+                width: 40px;
+                height: 40px;
+                border: 1px solid white;
+                margin-left: 35px;
+                margin-top: 25px;
             }
         }
     }
