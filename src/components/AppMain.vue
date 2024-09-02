@@ -397,18 +397,27 @@ export default {
 
     <!-- GET STARTED SECTION -->
     <section class="get-started">
-        <div class="bg-danger">
-            img
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="text-center bg-primary">
-                            text
+                        <div class="get-started-content">
+                            <h4>
+                                LET'S TALK ABOUT WORK
+                            </h4>
+
+                            <P>
+                                A wonderful serenity has taken possession Faf far away, behind the word mountains.
+                            </P>
+
+                            <div>
+                                <button>
+                                    GET STARTED
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
 </template>
@@ -682,7 +691,36 @@ export default {
 
     //GET STARTED SECTION
     .get-started {
-        padding-top: 250px;
+        margin-top: 220px;
+        background-image: url(/public/img/business-people-working-together-on-project-and-B3MZ4TX.jpg);
+        height: 470px;
+        background-repeat: no-repeat;
+
+        .get-started-content {
+            text-align: center;
+            padding-top: 170px;
+
+            h4 {
+                color: white;
+                font-size: 40px;
+                font-weight: 700;
+            }
+
+            p {
+                color: #f0bac3;
+                padding: 0px 450px;
+            }
+
+            button {
+                background-color: #201e38;
+                padding: 18px 40px;
+                border: none;
+                font-size: 14px;
+                color: #e4e3e5;
+                font-weight: 600;
+                margin-top: 10px;
+            }
+        }
     }
     
 
